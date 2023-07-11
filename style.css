@@ -58,8 +58,7 @@ section {
 
 .banner-title {
 
-    display: flex;
-    width: 708px;
+    max-width: 708px;
     color: #272727;
     font-size: 80px;
     font-weight: 800;
@@ -80,9 +79,6 @@ section {
     border: 0;
     font-weight: 700px;
     padding: 18px 38px;
-    gap: 10px;
-
-
 }
 
 
@@ -93,12 +89,14 @@ section {
     background: #FFF;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    gap: 20px;
 }
 
 .featured-section-img1,
 .featured-section-img2,
 .featured-section-img3 {
-    width: 460px;
+    width: 450px;
     height: 538px;
     border-radius: 300px 300px 0px 0px;
 }
@@ -145,6 +143,7 @@ section {
     background: rgba(39, 39, 39, 0.05);
     padding-block: 87px;
     text-align: center;
+
 }
 
 .delivery-sec img {
@@ -184,6 +183,8 @@ section {
 .instagram-section-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    gap: 20px;
 }
 
 /* subscribe section  */
