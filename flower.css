@@ -1,0 +1,75 @@
+.banner {
+    
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile-picture {
+    width: 500px;
+
+    height: auto;
+
+}
+
+.banner-title {
+
+    display: flex;
+    width: 708px;
+
+    color: #272727;
+
+    font-size: 80px;
+
+    font-weight: 800;
+
+}
+
+.banner-pra {
+    display: flex;
+    width: 634px;
+
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+
+    font-size: 20px;
+    border: 0;
+    font-weight: 700px;
+    display: inline-flex;
+    padding: 18px 38px;
+    align-items: flex-start;
+    gap: 10px;
+
+
+}
+
+.Header-colour {
+    background-color: rgba(229, 84, 115, 0.10);
+    width: 1920px;
+    height: 800px;
+    border-top: #E55473;
+
+}
+
+.profile-picture {
+   
+    padding-left: 300px;
+    padding-top: 170px;
+
+
+}
+
+nav{
+    margin: 0 200px;
+}
